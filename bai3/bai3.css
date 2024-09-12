@@ -1,0 +1,150 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(163, 58, 12);
+    color: rgb(129, 119, 57);
+    font-size: xx-large;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: -1px -3px 3px white;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+nav{
+    width: 100%;
+    height: 20px; 
+}
+nav li{
+    color: white;
+    text-decoration-line: none;
+    list-style: none;
+    line-height: 20px;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(176, 106, 1);
+    font-weight: 900;
+    width: 100%;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    height: 100%;}
+#post{
+    width: 65%;
+    float: left;
+    color: rgb(181, 149, 46);
+    padding-left: 10px;
+
+}
+#post ul li input{
+    width: 60%;
+    border-bottom: 5px solid black;
+}
+#post h1{
+    font-size: 1.3em;
+    letter-spacing: 3px ;
+    margin-bottom: 15px;
+    color: rgb(145, 130, 31);
+}
+#post p{
+    margin-left: 40px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-style: italic
+    ;
+    font-weight: 600;
+}
+#post ul input{
+    padding-top: 20px;
+}
+#post ul {
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+#at input{
+    width: 120px;
+    height: 25px;
+    background-color: rgb(163, 154, 34);
+    color: aliceblue;
+    border: none;
+}
+#section{
+    width: 30%;
+    float: right;
+    border-left:2px solid rgba(101, 97, 97, 0.308) ;
+    padding-left: 30px;
+}
+#at1{
+    background-color: bisque;
+    color: rgb(114, 65, 0);
+    padding-left: 10px;
+    border-top-right-radius:10% ;
+    border-top-left-radius: 10%;
+    margin-top: 30px;
+}
+#at1 ul{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+   
+}
+#at1 ul li a{
+    text-decoration-line: none;
+    color: rgb(193, 107, 46);
+}
+#at1 ul li{
+    list-style:square;
+}
+#at1 h2{
+    padding-top: 10px;
+}
+#at2 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: rgb(114, 65, 0);
+}
+#at2 img{
+    width: 80px;
+    float: left;
+    padding: 7px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(207, 201, 201);
+}
+#at2 p{
+    text-align: justify;
+    padding-right: 35px;
+    padding-left: 10px;
+}
+#at2{
+    margin-bottom: 30px;
+}
+#footer{
+    width: 850px;
+    height: 30px;
+    float: inline-end;
+    text-align: center;   background-image: url(../bai3/image/footer.png);
+    font-size: 1.3em;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#footer p{
+    padding-top: 30px;
+}

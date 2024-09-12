@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(rgb(152, 219, 253),rgb(0, 136, 255));
+}
+#container{
+    width: 800px;
+    height: 500px;
+}
+#menu ul li{
+    float: left;
+    margin-left: 40px;
+    color: white;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+#menu{
+    width: 800px;
+    height: 30px;
+    border-bottom: 5px dotted white;
+}
+#menu p{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 250px;
+    color: white;
+    text-shadow: 3px 0px 10px rgb(0, 50, 252);
+}
+#content{
+    color: white;
+    float: left;
+    width: 400px;
+}
+#ten{
+    list-style-type: none;
+    float: left;
+    width: 180px;
+}
+#bang{
+    list-style-type: none;
+    float:right;
+    width: 200px;
+}
+#content li{
+    padding-bottom: 5px;
+}
+#container img{
+    float:right;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#post{
+    float: right;
+}
+#post h2{
+    color: blue;
+    text-shadow: 2px 2px 1px;
+}
+#post p{
+    color: blue;
+    font-size: 1.1em;
+    margin-top: -20px;
+    font-weight: 900;
+    padding-left: 10px;
+}
+#article{
+    color: white;
+    border-top: 5px dotted;
+    text-align: center;
+    width: 800px;
+    padding-top: 10px;
+}
+input [type=submit]{
+    border: 5px dotted blue;
+}

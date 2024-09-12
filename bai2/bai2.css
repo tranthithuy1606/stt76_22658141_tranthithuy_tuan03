@@ -1,0 +1,166 @@
+.wapper{
+    width: 960px;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #294e70;
+}
+#header1 h1{
+    margin-top: 20px;
+}
+header img{
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#header1{
+    width: 35%;
+    float: left;
+    color: white;
+}
+#header1 p {
+    margin-left: 70px;
+}
+#menu{
+    width: 65%;
+    float: right;
+    position: absolute;
+    top: 57px;
+    right: 0px;
+    left: 500px;
+
+}
+#menu li{
+    color: white;
+    text-decoration-line: none;
+    list-style: none;
+    line-height: 50px;
+    float: left;
+}
+#menu ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+#menu ul li a{
+    list-style: none;background: rgb(35, 137, 178);
+    text-decoration: none;
+    display: unset;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 7px;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+#menu ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+#content h1{
+    font-size: 1.3em;
+    border-bottom: 3px dotted ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 99%;
+    margin-right: 20px;
+    
+
+}
+#content{
+    width: 70%;
+    float: left;
+}
+#post{
+    width: 55%;
+    float: left;
+}
+#post p{
+    margin-right: 20px;
+    text-align: justify;
+    font-style: italic;
+    color: rgb(255, 57, 2);
+    text-shadow: 3px 1px 5px rgb(3, 184, 3);
+}
+form li{
+    list-style: none;
+    padding-bottom: 20px;
+   
+}
+#at1{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+input :type(submit){
+    width: 30px;
+}
+#at2{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+#center{
+    width: 40%;
+    float: right;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+#right{
+    width: 30%;
+    float: right;
+    background-color: rgb(235, 237, 238);
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+#right img{
+    width: 230px;
+    height: 100px;
+    border: 1px inset white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#right h1{
+    font-size: 1.3em;
+    border-bottom: 3px dotted ;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+#right p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#center ul li{
+    list-style: none;}
+#center ul{
+    padding-bottom: 20px;
+ }
+#right a{
+    position: relative;
+    left: 200px;
+    text-decoration: none;
+    color: #294e70;
+}
+#footer{
+    width: 100%;
+    height: 30px;
+    background-color: #294e70;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
